@@ -1,0 +1,4 @@
+CFFVol maximum eigenvalue magnitude: 1.0000000000000069
+CFFNone maximum eigenvalue magnitude: 1.0000000000000082
+CFFOBC maximum eigenvalue magnitude: 1.000000000000011
+CFFVolXY maximum eigenvalue magnitude: 1.0000196491771907

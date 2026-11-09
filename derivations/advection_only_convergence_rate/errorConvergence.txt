@@ -1,0 +1,96 @@
+time =  0
+-------
+Error of incoming populations in the cut cell:
+0
+
+Error of outgoing populations in the cut cell:
+0
+
+Error of outgoing populations in adjacent cell (this propagates to the bulk):
+0
+
+
+time =  1
+-------
+Error of incoming populations in the cut cell:
+-0.699613*h**2 - 17.8976*h**3 + O(h**4)
+
+Error of outgoing populations in the cut cell:
+-0.225917*h**2 - 3.64058*h**3 + O(h**4)
+
+Error of outgoing populations in adjacent cell (this propagates to the bulk):
+0.30851*h**2 + 7.17938*h**3 + O(h**4)
+
+
+time =  2
+-------
+Error of incoming populations in the cut cell:
+0.654477*h**2 + 30.2718*h**3 + O(h**4)
+
+Error of outgoing populations in the cut cell:
+0.225917*h**2 + 8.00928*h**3 + O(h**4)
+
+Error of outgoing populations in adjacent cell (this propagates to the bulk):
+-0.0150454*h**2 + 5.58096*h**3 + O(h**4)
+
+
+time =  3
+-------
+Error of incoming populations in the cut cell:
+-0.657389*h**2 - 43.0023*h**3 + O(h**4)
+
+Error of outgoing populations in the cut cell:
+0.225917*h**2 + 12.378*h**3 + O(h**4)
+
+Error of outgoing populations in adjacent cell (this propagates to the bulk):
+0.000970673*h**2 + 5.69975*h**3 + O(h**4)
+
+
+time =  4
+-------
+Error of incoming populations in the cut cell:
+0.657201*h**2 + 55.7098*h**3 + O(h**4)
+
+Error of outgoing populations in the cut cell:
+0.225917*h**2 + 16.7467*h**3 + O(h**4)
+
+Error of outgoing populations in adjacent cell (this propagates to the bulk):
+6.26241e-5*h**2 - 5.69208*h**3 + O(h**4)
+
+
+time =  5
+-------
+Error of incoming populations in the cut cell:
+0.657213*h**2 + 68.4189*h**3 + O(h**4)
+
+Error of outgoing populations in the cut cell:
+0.225917*h**2 + 21.1154*h**3 + O(h**4)
+
+Error of outgoing populations in adjacent cell (this propagates to the bulk):
+-4.04026e-6*h**2 - 5.69258*h**3 + O(h**4)
+
+
+time =  6
+-------
+Error of incoming populations in the cut cell:
+-0.657212*h**2 - 81.1278*h**3 + O(h**4)
+
+Error of outgoing populations in the cut cell:
+0.225917*h**2 + 25.4841*h**3 + O(h**4)
+
+Error of outgoing populations in adjacent cell (this propagates to the bulk):
+-2.60662e-7*h**2 + 5.69254*h**3 + O(h**4)
+
+
+time =  7
+-------
+Error of incoming populations in the cut cell:
+-0.657212*h**2 - 93.8367*h**3 + O(h**4)
+
+Error of outgoing populations in the cut cell:
+0.225917*h**2 + 29.8528*h**3 + O(h**4)
+
+Error of outgoing populations in adjacent cell (this propagates to the bulk):
+-1.68169e-8*h**2 - 5.69255*h**3 + O(h**4)
+
+

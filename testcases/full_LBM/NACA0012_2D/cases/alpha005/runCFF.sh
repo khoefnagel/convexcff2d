@@ -1,0 +1,1 @@
+../../common//runAlphaCFF.sh

@@ -1,0 +1,36 @@
+Observed Order of Convergence of the L1-norm for all cases:
+Chen, theta 10: 1.19
+Chen, theta 20: 1.19
+Chen, theta 30: 1.21
+Chen, theta 40: 1.22
+Chen, theta 45: 1.17
+CFFVol, theta 10: 2.24
+CFFVol, theta 20: 2.25
+CFFVol, theta 30: 2.27
+CFFVol, theta 40: 2.26
+CFFVol, theta 45: 2.17
+
+Observed Order of Convergence of the L2-norm for all cases:
+Chen, theta 10: 1.20
+Chen, theta 20: 1.19
+Chen, theta 30: 1.21
+Chen, theta 40: 1.22
+Chen, theta 45: 1.17
+CFFVol, theta 10: 2.24
+CFFVol, theta 20: 2.25
+CFFVol, theta 30: 2.27
+CFFVol, theta 40: 2.26
+CFFVol, theta 45: 2.18
+
+Observed Order of Convergence of the LInf-norm for all cases:
+Chen, theta 10: 1.21
+Chen, theta 20: 1.20
+Chen, theta 30: 1.21
+Chen, theta 40: 1.24
+Chen, theta 45: 1.22
+CFFVol, theta 10: 2.26
+CFFVol, theta 20: 2.28
+CFFVol, theta 30: 2.29
+CFFVol, theta 40: 2.27
+CFFVol, theta 45: 2.25
+

@@ -1,0 +1,43 @@
+Info    : Running '/home/kaj/.local/bin/gmsh -3 setupCase.geo -format msh2 -o output.msh' [Gmsh 4.13.1, 1 node, max. 1 thread]
+Info    : Started on Tue Sep  9 11:53:01 2025
+Info    : Reading 'setupCase.geo'...
+Info    : Reading 'caseDef.geo'...
+Info    : Done reading 'caseDef.geo'
+Info    : Reading 'NACA0012.geo'...
+Info    : Done reading 'NACA0012.geo'
+Info    : Done reading 'setupCase.geo'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 10%] Meshing curve 2 (Line)
+Info    : [ 20%] Meshing curve 3 (Line)
+Info    : [ 30%] Meshing curve 4 (Line)
+Info    : [ 30%] Meshing curve 5 (Line)
+Info    : [ 40%] Meshing curve 7 (Extruded)
+Info    : [ 50%] Meshing curve 8 (Extruded)
+Info    : [ 50%] Meshing curve 9 (Extruded)
+Info    : [ 60%] Meshing curve 10 (Extruded)
+Info    : [ 70%] Meshing curve 11 (Extruded)
+Info    : [ 70%] Meshing curve 13 (Extruded)
+Info    : [ 80%] Meshing curve 14 (Extruded)
+Info    : [ 90%] Meshing curve 18 (Extruded)
+Info    : [ 90%] Meshing curve 22 (Extruded)
+Info    : [100%] Meshing curve 29 (Extruded)
+Info    : Done meshing 1D (Wall 0.00206802s, CPU 0.002068s)
+Info    : Meshing 2D...
+Info    : [  0%] Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : [ 20%] Meshing surface 15 (Extruded)
+Info    : [ 30%] Meshing surface 19 (Extruded)
+Info    : [ 50%] Meshing surface 23 (Extruded)
+Info    : [ 60%] Meshing surface 27 (Extruded)
+Info    : [ 80%] Meshing surface 31 (Extruded)
+Info    : [ 90%] Meshing surface 32 (Extruded)
+Info    : Done meshing 2D (Wall 3.33485s, CPU 3.29832s)
+Info    : Meshing 3D...
+Info    : Meshing volume 1 (Extruded)
+Info    : Done meshing 3D (Wall 2.48822s, CPU 2.46851s)
+Info    : Optimizing mesh...
+Info    : Done optimizing mesh (Wall 0.0135703s, CPU 0.013428s)
+Info    : 150004 nodes 448575 elements
+Info    : Writing 'output.msh'...
+Info    : Done writing 'output.msh'
+Info    : Stopped on Tue Sep  9 11:53:08 2025 (From start: Wall 6.9735s, CPU 7.11531s)

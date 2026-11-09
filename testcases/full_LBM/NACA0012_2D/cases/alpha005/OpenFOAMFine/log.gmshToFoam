@@ -1,0 +1,86 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-3bcbaf946ae9
+Exec   : gmshToFoam output.msh
+Date   : Sep 09 2025
+Time   : 11:53:08
+Host   : "kaj-Precision-5820-Tower"
+PID    : 918706
+I/O    : uncollated
+Case   : /home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Starting to read mesh format at line 2
+Read format version 2.2  ascii 0
+
+Starting to read physical names at line 5
+Physical names:7
+    Surface 33	Sides
+    Surface 34	Inlet
+    Surface 35	Outlet
+    Surface 36	Top
+    Surface 37	Bottom
+    Surface 38	Airfoil
+    Volume 39	Fluid
+
+Starting to read points at line 15
+Vertices to be read:149278
+Vertices read:149278
+
+Starting to read cells at line 149296
+Cells to be read:444444
+
+Mapping region 33 to Foam patch 0
+Mapping region 37 to Foam patch 1
+Mapping region 35 to Foam patch 2
+Mapping region 36 to Foam patch 3
+Mapping region 34 to Foam patch 4
+Mapping region 38 to Foam patch 5
+Mapping region 39 to Foam cellZone 0
+Cells:
+    total:147583
+    hex  :0
+    prism:147583
+    pyr  :0
+    tet  :0
+
+CellZones:
+Zone	Size
+    0	147583
+
+Skipping tag  at line 593743
+Patch 0 gets name Sides
+Patch 1 gets name Bottom
+Patch 2 gets name Outlet
+Patch 3 gets name Top
+Patch 4 gets name Inlet
+Patch 5 gets name Airfoil
+
+--> FOAM Warning : 
+    From function Foam::polyMesh::polyMesh(const Foam::IOobject&, Foam::pointField&&, const cellShapeList&, const faceListList&, const wordList&, const wordList&, const Foam::word&, const Foam::word&, const wordList&, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 595
+    Found 296861 undefined faces in mesh; adding to default patch.
+Finding faces of patch 0
+Finding faces of patch 1
+Finding faces of patch 2
+Finding faces of patch 3
+Finding faces of patch 4
+Finding faces of patch 5
+
+FaceZones:
+Zone	Size
+
+Writing zone 0 to cellZone Fluid and cellSet
+End
+

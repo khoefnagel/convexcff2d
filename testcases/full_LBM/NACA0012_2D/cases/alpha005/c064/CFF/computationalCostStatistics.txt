@@ -1,0 +1,4 @@
+
+Computational cost statistics for Chen:
+Maximum number of nonzeros in a row: 7
+Average number of nonzeros in a row: 4.411943319838056

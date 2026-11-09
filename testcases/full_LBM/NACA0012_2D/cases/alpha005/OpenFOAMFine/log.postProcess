@@ -1,0 +1,188 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-3bcbaf946ae9
+Exec   : simpleFoam -postProcess -func wallShearStress -noZero -latestTime
+Date   : Sep 09 2025
+Time   : 19:23:55
+Host   : "kaj-Precision-5820-Tower"
+PID    : 1120492
+I/O    : uncollated
+Case   : /home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 10085
+
+
+SIMPLE: Convergence criteria found
+        p: tolerance 1e-07
+        U: tolerance 1e-07
+
+Time = 10085
+Reading field p
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+No MRF models present
+
+No finite volume options present
+wallShearStress wallShearStress:
+    processing all wall patches
+
+wallShearStress wallShearStress write:
+    writing object wallShearStress
+    min/max(Airfoil) = (-0.0043562 -0.00470435 -1.62252e-22), (-0.000187618 0.00187509 1.76151e-22)
+
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-3bcbaf946ae9
+Exec   : simpleFoam -postProcess
+Date   : Sep 09 2025
+Time   : 19:23:56
+Host   : "kaj-Precision-5820-Tower"
+PID    : 1120493
+I/O    : uncollated
+Case   : /home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: Convergence criteria found
+        p: tolerance 1e-07
+        U: tolerance 1e-07
+
+Time = 0
+Reading field p
+
+--> FOAM Warning : 
+    From function Foam::Field<Type>::Field(const Foam::word&, const Foam::dictionary&, Foam::label) [with Type = double; Foam::label = int]
+    in file /home/ubuntu/OpenFOAM/OpenFOAM-7/src/OpenFOAM/lnInclude/Field.C at line 232
+    Reading "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/0/p.boundaryField.Inlet" from line 25 to line 26
+    expected keyword 'uniform' or 'nonuniform', assuming deprecated Field format from Foam version 2.0.
+--> FOAM Warning : 
+    From function Foam::Field<Type>::Field(const Foam::word&, const Foam::dictionary&, Foam::label) [with Type = double; Foam::label = int]
+    in file /home/ubuntu/OpenFOAM/OpenFOAM-7/src/OpenFOAM/lnInclude/Field.C at line 232
+    Reading "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/0/p.boundaryField.Outlet" from line 31 to line 32
+    expected keyword 'uniform' or 'nonuniform', assuming deprecated Field format from Foam version 2.0.
+Reading field U
+
+Reading/calculating face flux field phi
+
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+No MRF models present
+
+No finite volume options present
+forces forceCoeffs1:
+    Not including porosity effects
+forceCoeffs forceCoeffs1:
+    Not including porosity effects
+forceCoeffs forceCoeffs1 write:
+    Cm    = 2.01523
+    Cd    = 73.3863
+    Cl    = 1.9712
+    Cl(f) = 3.00083
+    Cl(r) = -1.02963
+
+
+Time = 10085
+Reading field p
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+No MRF models present
+
+No finite volume options present
+forces forceCoeffs1:
+    Not including porosity effects
+forceCoeffs forceCoeffs1:
+    Not including porosity effects
+forceCoeffs forceCoeffs1 write:
+    Cm    = 0.00429159
+    Cd    = 0.445546
+    Cl    = 0.289221
+    Cl(f) = 0.148902
+    Cl(r) = 0.140319
+
+
+End
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-3bcbaf946ae9
+Exec   : foamToVTK -latestTime -noZero
+Date   : Sep 09 2025
+Time   : 19:23:57
+Host   : "kaj-Precision-5820-Tower"
+PID    : 1120494
+I/O    : uncollated
+Case   : /home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 10085
+
+Keeping old VTK files in "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/VTK"
+
+Time: 10085
+    volScalarFields            : p
+    volVectorFields            : U wallShearStress
+
+    Internal  : "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/VTK/OpenFOAMFine_10085.vtk"
+    Original cells:147583 points:149278   Additional cells:0  additional points:0
+
+    Patch     : "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/VTK/Sides/Sides_10085.vtk"
+    Patch     : "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/VTK/Bottom/Bottom_10085.vtk"
+    Patch     : "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/VTK/Outlet/Outlet_10085.vtk"
+    Patch     : "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/VTK/Top/Top_10085.vtk"
+    Patch     : "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/VTK/Inlet/Inlet_10085.vtk"
+    Patch     : "/home/kaj/Documents/convexcff2d/testcases/full_LBM/NACA0012_2D/cases/alpha005/OpenFOAMFine/VTK/Airfoil/Airfoil_10085.vtk"
+    surfScalarFields  : phi
+End
+
